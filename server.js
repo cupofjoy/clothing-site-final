@@ -2,7 +2,7 @@ const express = require('express');
 const cors = require('cors');
 const bodyParser = require('body-parser');
 const path = require('path');
-const compression = require('compression';)
+const compression = require('compression');
 
 if(process.env.NODE_ENV !== 'production') require('dotenv').config();
 
