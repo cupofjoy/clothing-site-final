@@ -40,4 +40,9 @@ export const OptionLink = styled(Link)`
   cursor: pointer;
 `;
 
+export const OptionLinkDiv = styled.div`
+  padding: 10px 15px;
+  cursor: pointer;
+`;
+
 OptionLink.displayName = 'OptionLink';
